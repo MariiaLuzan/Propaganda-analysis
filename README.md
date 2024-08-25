@@ -87,6 +87,14 @@ The secondary datasets is obtained from the website of the Levada Center (https:
 
 ![](images/Picture10.png)
 
+
+### Challenges, Lesson Learned and Future Work
+
+- ***Data collection can be time-consuming and prone to errors***. We had to repeat the scraping process at least twice after we found data quality issues. We recognized that the structure of the website changed throughout the years. Our scraping spider had to be clever enough to identify different HTML structures. Since scraping took approximately 10-12 hours, we experienced a delay that we had to recover in the subsequent analysis phase.
+- ***Having separate notebooks with functions for data cleaning and analysis enabled a smooth collaboration***
+
+- *Future work* could explore whether the use of some specific sentences in news broadcasts may predict events on the field (e.g., warfare events)
+
 ### Appendix
 
 **Scraping Sections**
